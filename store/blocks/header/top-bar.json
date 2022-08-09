@@ -1,0 +1,40 @@
+{
+  "flex-layout.row#top-bar":{
+      "props":{
+          "blockClass":["wrapper__top-bar"],
+          "fullWidth": true
+      },
+      "children":[
+          "rich-text#frete",
+          "flex-layout.row#seja"
+      ]
+  },
+  "rich-text#frete":{
+      "props":{
+          "blockClass":["text__top-bar", "top-bar__frete"],
+          "text": "Frete grátis para compras acima de R$200,00"
+      }
+  },
+  "flex-layout.row#seja":{
+      "props":{
+          "blockClass":["wrapper__seja"]
+      },
+      "children":[
+          "rich-text#rev",
+          "rich-text#rep"
+      ]
+  },
+  "rich-text#rev":{
+      "props":{
+          "blockClass":["text__top-bar", "top-bar__rev"],
+          "text": "[Seja um revendedor](/#)"
+      }
+  },
+  "rich-text#rep":{
+      "props":{
+          "blockClass":["text__top-bar", "top-bar__rep"],
+          "text": "[Seja um representante](/##)"
+      }
+  }
+  
+}

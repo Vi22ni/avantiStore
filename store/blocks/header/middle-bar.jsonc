@@ -1,0 +1,53 @@
+{
+
+    "flex-layout.row#desktop": {
+      "props": {
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "fullWidth": true,
+        "blockClass": ["wrapper__middle-bar"]
+      },
+      "children": [
+        "flex-layout.col#logo-desktop",
+        "search-bar",
+        //"flex-layout.col#spacer", 
+        //"locale-switcher",
+        "rich-text#atendimento",
+        "login",
+        "minicart.v2"
+      ]
+  },
+  "rich-text#atendimento":{
+      "props":{
+          "blockClass":["text__middle-bar", "top-middle-bar"],
+          "text": "[Atendimento ao cliente](/###)"
+      }
+  },
+  "login":{
+      "props":{
+          "showIconProfile": true,
+          "hideIconLabel": true
+      }
+  },
+  "flex-layout.col#spacer": {
+      "props": {
+          "width": "grow"
+      }
+    },
+    "flex-layout.col#logo-desktop": {
+      "props": {
+        "verticalAlign": "middle"
+      },
+      "children": ["logo"]
+    },
+    "logo": {
+      "props": {
+        "title": "Logo",
+        "href": "/",
+        "url": "assets/img/avanti/avanti@2x.png",
+        "width": "200"
+      }
+    }
+  }
