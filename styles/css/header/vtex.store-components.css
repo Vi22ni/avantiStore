@@ -1,0 +1,10 @@
+.logoLink{
+    justify-content: left;
+    text-align: left;
+}
+.logoImage{
+    display: flex;
+    /* width: 100%; */
+    justify-content: left;
+    align-self: flex-start;
+}

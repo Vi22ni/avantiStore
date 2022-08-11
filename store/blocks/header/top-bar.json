@@ -12,12 +12,13 @@
   "rich-text#frete":{
       "props":{
           "blockClass":["text__top-bar", "top-bar__frete"],
-          "text": "Frete grátis para compras acima de R$200,00"
+          "text": "Frete Grátis acima de R$299,00 para Região Sudeste."
       }
   },
   "flex-layout.row#seja":{
       "props":{
-          "blockClass":["wrapper__seja"]
+          "blockClass":["wrapper__seja"],
+          "preventHorizontalStretch": true
       },
       "children":[
           "rich-text#rev",

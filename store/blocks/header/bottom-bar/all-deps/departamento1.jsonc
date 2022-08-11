@@ -1,0 +1,85 @@
+
+{
+    "menu-item#category-allDeps-departamento1": {
+        "props": {
+          "id": "menu-item-category-allDeps-departamento1",
+          "type": "custom",
+          "blockClass": "menu-dep__wrapper",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/##/",
+            "noFollow": false,
+            "tagTitle": "Departamento 1",
+            "text": "Departamento 1"
+          }
+        },
+        "blocks":[ "vtex.menu@2.x:submenu#departamento1"]
+      },
+      
+    "vtex.menu@2.x:submenu#departamento1":{
+      "props": {
+        "width": "auto"
+      },
+        "children": [ "vtex.menu@2.x:menu#departamento1-submenu"]
+    },
+    "vtex.menu@2.x:menu#departamento1-submenu":{
+      "props": {
+        "orientation": "vertical"
+      },
+        "children": [
+            "menu-item#departamento1-categoria1",
+            "menu-item#departamento1-categoria2",
+            "menu-item#departamento1-categoria3"
+    ]
+    },
+    "menu-item#departamento1-categoria1":{
+        "props": {
+          "id": "menu-item-departamento1-categoria1",
+          "type": "custom",
+          "iconId": null,
+          "blockClass": "submenu-box__wrapper",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/##/",
+            "noFollow": false,
+            "tagTitle": "Categoria 1",
+            "text": "Categoria 1"
+          }
+        }
+    },
+    "menu-item#departamento1-categoria2":{
+        "props": {
+          "id": "menu-item-departamento1-categoria2",
+          "type": "custom",
+          "iconId": null,
+          "blockClass": "submenu-box__wrapper",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/##/",
+            "noFollow": false,
+            "tagTitle": "Categoria 2",
+            "text": "Categoria 2"
+          }
+        }
+    },
+    "menu-item#departamento1-categoria3":{
+        "props": {
+          "id": "menu-item-departamento1-categoria3",
+          "type": "custom",
+          "iconId": null,
+          "blockClass": "submenu-box__wrapper",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/##/",
+            "noFollow": false,
+            "tagTitle": "Categoria 3",
+            "text": "Categoria 3"
+          }
+        }
+    }
+}

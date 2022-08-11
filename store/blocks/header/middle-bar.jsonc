@@ -1,5 +1,5 @@
 {
-
+  
     "flex-layout.row#desktop": {
       "props": {
         "horizontalAlign": "center",
@@ -10,7 +10,7 @@
         "blockClass": ["wrapper__middle-bar"]
       },
       "children": [
-        "flex-layout.col#logo-desktop",
+        "logo#avanti",
         "search-bar",
         //"flex-layout.col#spacer", 
         //"locale-switcher",
@@ -36,17 +36,11 @@
           "width": "grow"
       }
     },
-    "flex-layout.col#logo-desktop": {
-      "props": {
-        "verticalAlign": "middle"
-      },
-      "children": ["logo"]
-    },
-    "logo": {
+    "logo#avanti": {
       "props": {
         "title": "Logo",
         "href": "/",
-        "url": "assets/img/avanti/avanti@2x.png",
+        "url": "https://blog.penseavanti.com.br/wp-content/uploads/2019/08/logo_avanti5-1024x173.png",
         "width": "200"
       }
     }

@@ -1,0 +1,41 @@
+
+.styledLinkContent--menu-item__wrapper{
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.menuItem--menu-item__wrapper,
+.menuItem--menu-item__wrapper--isClosed{
+    box-sizing: border-box;
+    padding: 0 1rem 0 1rem;
+}
+.menuItem--allDeps-wrapper,
+.menuItem--allDeps-wrapper--isClosed{
+    box-sizing: border-box;
+    background-color: #441AFA;
+    width: 300px;
+    padding: 0;
+}
+.styledLinkContent--allDeps-wrapper{
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+.styledLinkContent--menu-item-novidades__wrapper{
+    font-weight: bold;
+}
+.styledLinkContent--menu-item-outlet__wrapper{
+    font-weight: bold;
+    color: #441AFA;
+}
+.menuItem--submenu-box__wrapper,
+.menuItem--submenu-box__wrapper--isClosed{
+    background-color: red;
+}
+.menuItem--menu-dep__wrapper{
+    background-color: blue;
+}
+.submenuWrapper--menu-dep__wrapper{
+    width: 300px;
+    height: 300px;
+}

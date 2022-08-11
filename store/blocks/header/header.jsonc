@@ -8,7 +8,8 @@
   "header-layout.desktop": {
     "children": [
       "flex-layout.row#top-bar",
-      "sticky-layout#desktop"
+      "sticky-layout#desktop",
+      "flex-layout.row#bottom-bar"
     ]
   },
   "sticky-layout#desktop": {
