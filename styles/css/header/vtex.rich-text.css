@@ -25,10 +25,21 @@
     text-decoration: none;
     color: #B1B3B3
 }
-.link--top-middle-bar{
+
+.link--text__middle-bar{
+    text-decoration:underline;
+    color: #25282A;
+    font-weight: bold;
+    letter-spacing: 0px;
+    font-size: 14px;
+    width: 100%;
+}
+.container--text__middle-bar{
+    justify-content: center;
+    text-align: center;
+    width: 11rem;
+    height: 100%;
     position: flex;
     align-items: center;
-    text-decoration: none;
-    color: #25282A;
 }
 

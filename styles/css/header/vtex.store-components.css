@@ -8,3 +8,21 @@
     justify-content: left;
     align-self: flex-start;
 }
+
+.searchBarIcon--search__middle-bar--external-search{
+    background-color: #441AFA;
+}
+.searchIcon--search__middle-bar{
+    color: #fff;
+}
+.autoCompleteOuterContainer--search__middle-bar{
+    border: none;
+    /* width: 38rem; */
+}
+.searchBarContainer{
+    width: 38rem;
+}
+.autoCompleteOuterContainer--search__middle-bar :global(.vtex-input-prefix__group){
+    border-radius: 0;
+    border: none;
+}

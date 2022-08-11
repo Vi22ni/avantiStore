@@ -4,7 +4,7 @@
 }
 .flexRowContent--wrapper__top-bar{
     justify-content: center;
-    width: 93%;
+    width: 1252px;
     margin: 0 auto;
     height: 2rem;
 }
@@ -17,14 +17,17 @@
 }
 .flexRowContent--wrapper__middle-bar{
     justify-content: space-between;
-    width: 93%;
+    width: 1252px;
     margin: 0 auto;
-    height: 4rem;
+    height: 5rem;
     background-color: #EEEEEE;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+.flexRow--wrapper__right-middle{
+    justify-content: center;
 }
 .flexRow--wrapper__bottom-bar{
     background-color: #EEEEEE;
@@ -32,7 +35,7 @@
     border-top: 1px solid #d4d4d4;
 }
 .flexRowContent--wrapper__bottom-bar{
-    width: 93%;
+    width: 1252px;
     margin: 0 auto;
     height: 3rem;
 }

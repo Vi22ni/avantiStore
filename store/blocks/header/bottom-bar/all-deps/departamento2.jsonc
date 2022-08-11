@@ -4,6 +4,7 @@
         "props": {
           "id": "menu-item-category-allDeps-departamento2",
           "type": "custom",
+          "blockClass": "menu-dep__wrapper",
           "iconId": null,
           "highlight": false,
           "itemProps": {
@@ -12,6 +13,14 @@
             "noFollow": false,
             "tagTitle": "Departamento 2",
             "text": "Departamento 2"
+          },
+          "iconPosition": "right",
+          "iconProps": {
+            "id": "nav-caret--right",
+            "size": 16,
+            "fill": "black",
+            "viewBox": "0 0 16 16",
+            "orientation": "right"
           }
         },
         "blocks":[ "vtex.menu@2.x:submenu#departamento2"]

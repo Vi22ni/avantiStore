@@ -1,4 +1,8 @@
 
+/*
+    Menu principal
+*/
+
 .styledLinkContent--menu-item__wrapper{
     font-size: 12px;
     text-transform: uppercase;
@@ -15,6 +19,14 @@
     width: 300px;
     padding: 0;
 }
+.styledLinkContent--allDeps-wrapper::before{
+    content: "";
+    position: relative;
+    right: 14px;
+    width: 20px;
+    height: 14px;
+    background-image: url(https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/menu-branco___d782ee8….png);
+}
 .styledLinkContent--allDeps-wrapper{
     font-weight: bold;
     text-align: center;
@@ -28,14 +40,57 @@
     font-weight: bold;
     color: #441AFA;
 }
+
+/*
+    Submenu "todas os departamentos"
+*/
+
+
 .menuItem--submenu-box__wrapper,
 .menuItem--submenu-box__wrapper--isClosed{
     background-color: red;
 }
+.menuContainerNav--menu-allDeps__wrapper{
+    width: 100%;
+}
+.menuItem--menu-dep__wrapper--isOpen{
+    width: 250px;
+}
 .menuItem--menu-dep__wrapper{
-    background-color: blue;
+    height: 40px;
+    width: 100%;
+}
+.menuContainer--menu-allDeps__wrapper{
+    width: 100%;
+} 
+.styledLinkContainer--menu-dep__wrapper{
+    height: 100%;
+}
+.styledLinkContent--menu-dep__wrapper{
+    display: flex;
+    height: 100%;
+    font-size: 14px;
+    align-items: center;
+}
+.menuItem--menu-dep__wrapper:hover{
+    background-color: #EEEEEE;
+}
+.styledLinkContent--menu-dep__wrapper:hover{
+    font-weight: bold;
+    color:#441AFA
+}
+.styledLinkIcon--menu-dep__wrapper{
+    color: #25282A;
+}
+.menuContainerNav--menu-allDeps__wrapper{
+    display: flex;
+    height: 100%;
 }
 .submenuWrapper--menu-dep__wrapper{
     width: 300px;
     height: 300px;
 }
+
+/*
+    Submenu "categoria x"
+*/

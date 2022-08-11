@@ -14,12 +14,35 @@
         "search-bar",
         //"flex-layout.col#spacer", 
         //"locale-switcher",
-        "rich-text#atendimento",
-        "login",
-        "minicart.v2"
+        "flex-layout.row#wrapper__right-middle"
       ]
+    },
+  "logo#avanti": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://blog.penseavanti.com.br/wp-content/uploads/2019/08/logo_avanti5-1024x173.png",
+      "width": "200"
+    }
   },
-  "rich-text#atendimento":{
+  "search-bar":{
+    "props":{
+      "blockClass":["search__middle-bar"],
+      "displayMode": "search-and-clear-buttons",
+      "placeholder": "O que você procura?"
+    }
+  },
+  "flex-layout.row#wrapper__right-middle":{
+    "props":{
+      "preventHorizontalStretch": true
+    },
+    "children":[
+      "rich-text#atendimento",
+      "login",
+      "minicart.v2"
+    ]
+  },
+    "rich-text#atendimento":{
       "props":{
           "blockClass":["text__middle-bar", "top-middle-bar"],
           "text": "[Atendimento ao cliente](/###)"
@@ -27,7 +50,7 @@
   },
   "login":{
       "props":{
-          "showIconProfile": true,
+          "showIconProfile": false,
           "hideIconLabel": true
       }
   },
@@ -35,13 +58,15 @@
       "props": {
           "width": "grow"
       }
-    },
-    "logo#avanti": {
-      "props": {
-        "title": "Logo",
-        "href": "/",
-        "url": "https://blog.penseavanti.com.br/wp-content/uploads/2019/08/logo_avanti5-1024x173.png",
-        "width": "200"
-      }
+  },
+  "minicart.v2":{
+    "props":{
+      "blockClass":["minicart__wrapper"]
+    }
+  },
+  "icon-cart":{
+    "props":{
+      "isActive": false
     }
   }
+}

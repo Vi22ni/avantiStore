@@ -1,0 +1,25 @@
+.minicartWrapperContainer{
+    justify-content: center;
+    width: 4rem;
+}
+.minicartWrapperContainer :global(.vtex-button){
+    background-color: #441AFA00;
+}
+.cartIcon--minicart__wrapper{
+    display: none;
+}
+.openIconContainer--minicart__wrapper :global(.vtex-button)::before{
+    width: 1.5rem;
+    height: 1.5rem;
+    content: "";
+    background: url(https://vollo.vtexassets.com/assets/vtex/assets-builder/vollo.store-theme/4.7.2/svgs/cart-icon___79b8b00….svg) no-repeat 50%;
+    background-size: contain;
+    width: 28px;
+    height: 26px;
+    display: flex;
+}
+.minicartQuantityBadgeDefault{
+    background-color: #441AFA;
+    top: -35px;
+    right: -20px;
+}

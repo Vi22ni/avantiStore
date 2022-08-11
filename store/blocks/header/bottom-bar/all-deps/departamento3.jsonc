@@ -5,6 +5,7 @@
           "id": "menu-item-category-allDeps-departamento3",
           "type": "custom",
           "iconId": null,
+          "blockClass": "menu-dep__wrapper",
           "highlight": false,
           "itemProps": {
             "type": "internal",
@@ -12,6 +13,14 @@
             "noFollow": false,
             "tagTitle": "Departamento 3",
             "text": "Departamento 3"
+          },
+          "iconPosition": "right",
+          "iconProps": {
+            "id": "nav-caret--right",
+            "size": 16,
+            "fill": "black",
+            "viewBox": "0 0 16 16",
+            "orientation": "right"
           }
         },
         "blocks":[ "vtex.menu@2.x:submenu#departamento3"] 

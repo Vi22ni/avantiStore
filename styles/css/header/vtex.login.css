@@ -1,0 +1,6 @@
+.container{
+    background: url(https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/user___f311137….png) center center no-repeat;
+}
+.container :global(.vtex-button){
+    background-color: rgba(219, 232, 243, 0);
+}
