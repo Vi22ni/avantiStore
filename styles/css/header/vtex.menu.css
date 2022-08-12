@@ -46,10 +46,7 @@
 */
 
 
-.menuItem--submenu-box__wrapper,
-.menuItem--submenu-box__wrapper--isClosed{
-    background-color: red;
-}
+
 .menuContainerNav--menu-allDeps__wrapper{
     width: 100%;
 }
@@ -75,6 +72,7 @@
 .menuItem--menu-dep__wrapper:hover{
     background-color: #EEEEEE;
 }
+
 .styledLinkContent--menu-dep__wrapper:hover{
     font-weight: bold;
     color:#441AFA
@@ -87,10 +85,36 @@
     height: 100%;
 }
 .submenuWrapper--menu-dep__wrapper{
+    border: none;
     width: 300px;
     height: 300px;
+    padding: 0;
 }
 
 /*
-    Submenu "categoria x"
+Submenu "categoria x"
 */
+
+.submenuWrapper--submenu__wrapper--isOpen,
+.submenuWrapper--submenu2__wrapper--isOpen,
+.submenuWrapper--submenu3__wrapper--isOpen
+{
+    justify-content: start;
+    align-items: flex-start;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 275px;
+    border: none;
+    border-left: 2px solid #EEEEEE;
+    padding: 0;
+}
+.submenuWrapper--submenu2__wrapper--isOpen{
+    top: -80px;
+}
+.submenuWrapper--submenu__wrapper--isOpen{
+    top: -40px;
+}
+.submenuWrapper--submenu3__wrapper--isOpen{
+    top: -120px;
+}

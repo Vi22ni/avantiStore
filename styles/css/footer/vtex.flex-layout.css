@@ -1,0 +1,30 @@
+
+
+.flexRow--credits{
+    background-color: #ffffff;
+    width: 100%;
+}
+.flexRow--menu-row{
+    width: 100%;
+    
+}
+.flexRow--payment-methods{
+    width: 100%;
+
+}
+.flexRowContent--credits{
+    width: 1252px;
+    margin: 0 auto;
+    border: 1px solid orange;
+}
+.flexRowContent--menu-row{
+    width: 1252px;
+    margin: 0 auto;
+    border: 1px solid green;
+    border-bottom: 1px solid #8C8F90;
+}
+.flexRowContent--payment-methods{
+    width: 1252px;
+    border: 1px solid blue;
+    margin: 0 auto;
+}

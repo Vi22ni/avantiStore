@@ -28,27 +28,34 @@
       "vtex.menu@2.x:submenu#departamento2":{
         "props": {
         "width":"auto",
-        "blockClass": "submenu__wrapper"
+        "blockClass": "submenu2__wrapper"
       },
       "children": [ "vtex.menu@2.x:menu#departamento2-submenu"]
     },
     "vtex.menu@2.x:menu#departamento2-submenu":{
       "props": {
         "orientation": "vertical",
-        "blockClass": "menu-dep__wrapper"
+        "blockClass": ["menu-allDeps__wrapper"]
       },
       "children": [
+        "rich-text#departamento2-title",
         "menu-item#departamento2-categoria1",
         "menu-item#departamento2-categoria2",
         "menu-item#departamento2-categoria3"
       ]
+    },
+    "rich-text#departamento2-title":{
+      "props":{
+        "text": "[Departamento 2](/##)",
+        "blockClass": "menu-title__wrapper"
+      }
     },
     "menu-item#departamento2-categoria1":{
       "props": {
         "id": "menu-item-departamento2-categoria1",
         "type": "custom",
         "iconId": null,
-        "blockClass": "submenu-box__wrapper",
+        "blockClass": "menu-dep__wrapper",
         "highlight": false,
           "itemProps": {
             "type": "internal",
@@ -65,7 +72,7 @@
           "type": "custom",
           "iconId": null,
           "highlight": false,
-          "blockClass": "submenu-box__wrapper",
+          "blockClass": "menu-dep__wrapper",
           "itemProps": {
             "type": "internal",
             "href": "/##/",
@@ -80,7 +87,7 @@
           "id": "menu-item-departamento2-categoria3",
           "type": "custom",
           "iconId": null,
-          "blockClass": "submenu-box__wrapper",
+          "blockClass": "menu-dep__wrapper",
           "highlight": false,
           "itemProps": {
             "type": "internal",
