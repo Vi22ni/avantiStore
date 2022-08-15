@@ -1,0 +1,25 @@
+.paragraph--newsletter-text-title__wrapper {
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    color: #441AFA;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.paragraph--newsletter-text__wrapper{
+    letter-spacing: 0px;
+    margin-top: 0;
+    color: #25282A;
+    opacity: 1;
+    font-size: 16px;
+}
+.link--menu-items__wrapper:visited{
+    color: #25282A;
+}
+.link--menu-items__wrapper{
+    margin-top: -0.2rem;
+    font-size: 12px;
+    color: #25282A;
+}
+.paragraph--menu-items__wrapper{
+    margin: 0%;
+}
