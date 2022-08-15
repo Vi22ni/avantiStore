@@ -2,29 +2,43 @@
 
 .flexRow--credits{
     background-color: #ffffff;
-    width: 100%;
+    max-width: 100%;
 }
 .flexRow--menu-row{
-    width: 100%;
+    max-width: 100%;
     
 }
 .flexRow--payment-methods{
-    width: 100%;
+    max-width: 100%;
 
 }
 .flexRowContent--credits{
-    width: 1252px;
+    max-width: 1252px;
     margin: 0 auto;
     border: 1px solid orange;
 }
 .flexRowContent--menu-row{
-    width: 1252px;
-    margin: 0 auto;
-    border: 1px solid green;
-    border-bottom: 1px solid #8C8F90;
+    max-width: 1252px;
+    margin: 80px auto 100px auto;
 }
 .flexRowContent--payment-methods{
-    width: 1252px;
-    border: 1px solid blue;
+    border-top: 1px solid #8C8F90;
+    max-width: 1252px;
     margin: 0 auto;
+    box-sizing: border-box;
+    padding: 30px 0 20px 0;
+}
+.flexRow--footer-newsletter__wrapper{
+    max-width: 100%;
+}
+.flexRowContent--footer-newsletter__wrapper{
+    margin: 0 auto;
+    max-width: 1252px;
+    justify-content: space-between;
+}
+.flexCol--footer-txt-col__wrapper{
+    width: 308px;
+}
+.flexRowContent--footer-networks__wrapper{
+    justify-content: right;
 }

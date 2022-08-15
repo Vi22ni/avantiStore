@@ -1,3 +1,46 @@
 .newsletter--newsletter__container{
     border: 1px solid red ;
 }
+.logoLink--footer-logo__newsletter {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+.logoContainer--footer-logo__newsletter {
+    padding-left: 5px;
+}
+.flexCol--footer-txt-col__wrapper {
+    width: 308px;
+    height: 85px;
+    justify-content: center;
+}
+.newsletter--newsletter__container {
+    border: 1px solid red;
+    background-color: #00000000;
+    padding: 0;
+    width: 700px;
+    display: flex;
+}
+.container--newsletter__container {
+    padding: 0!important;
+    border: 2px solid green;
+    display: flex;
+    align-items: center;
+}
+.imageElement--footer-facebook{
+    width: 11px;
+    height: 21px;
+    margin-right: 1.5rem;
+    display: flex;
+    align-items: center;
+    padding-top:2px;
+}
+
+.imageElement--footer-instagram{
+    width: 25px;
+    height: 25px;
+    margin-right: 1.5rem;
+    display: flex;
+    align-items: center;
+
+}
