@@ -1,33 +1,41 @@
 {
-  "vtex.menu@2.x:menu#Products": {
+  "vtex.menu@2.x:menu#institucional": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#news",
-      "menu-item#blackfriday",
-      "menu-item#sale",
-      "menu-item#personalization"
+      "menu-item#ajuda-title",
+      "menu-item#pagamento",
+      "menu-item#frete",
+      "menu-item#privacidade",
+      "menu-item#garantia",
+      "menu-item#termos"
     ]
   },
-  "menu-item#news": {
+  "menu-item#ajuda-title": {
     "props": {
-      "id": "menu-item-news",
+      "blockClass":[
+        "menu-highlight", "menu-items__wrapper"
+      ],
+      "id": "menu-item-ajuda-title",
       "type": "custom",
       "iconId": null,
-      "highlight": false,
+      "highlight": true,
       "itemProps": {
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "News",
-        "text": "News"
+        "tagTitle": "Precisa de Ajuda?",
+        "text": "Precisa de Ajuda?"
       }
     }
   },
-  "menu-item#blackfriday": {
+  "menu-item#pagamento": {
     "props": {
-      "id": "menu-item-black-friday",
+      "id": "menu-item-pagamento",
+      "blockClass":[
+        "menu-items__wrapper"
+      ],
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -35,14 +43,17 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "BlackFriday",
-        "text": "Black Friday"
+        "tagTitle": "Formas de Pagamento",
+        "text": "Formas de Pagamento"
       }
     }
   },
-  "menu-item#sale": {
+  "menu-item#frete": {
     "props": {
-      "id": "menu-item-sale",
+      "id": "menu-item-frete",
+      "blockClass":[
+        "menu-items__wrapper"
+      ],
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -50,14 +61,17 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Sale",
-        "text": "Sale"
+        "tagTitle": "Frete e Prazo de Entrega",
+        "text": "Frete e Prazo de Entrega"
       }
     }
   },
-  "menu-item#personalization": {
+  "menu-item#privacidade": {
     "props": {
-      "id": "menu-item-personalization",
+      "id": "menu-item-politica",
+      "blockClass":[
+        "menu-items__wrapper"
+      ],
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -65,8 +79,44 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Personalization",
-        "text": "Personalization"
+        "tagTitle": "Politica de Privacidade",
+        "text": "Politica de Privacidade"
+      }
+    }
+  },
+  "menu-item#garantia": {
+    "props": {
+      "id": "menu-item-garantia",
+      "blockClass":[
+        "menu-items__wrapper"
+      ],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Garantia",
+        "text": "Garantia"
+      }
+    }
+  },
+  "menu-item#termos": {
+    "props": {
+      "id": "menu-item-termos",
+      "blockClass":[
+        "menu-items__wrapper"
+      ],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Termos e Condições de Uso",
+        "text": "Termos e Condições de Uso"
       }
     }
   },
@@ -87,7 +137,7 @@
       "id": "menu-item-smartphones",
       "type": "custom",
       "iconId": null,
-      "highlight": false,
+      "highlight": true,
       "itemProps": {
         "type": "internal",
         "href": "/decoration/smartphones",
@@ -130,20 +180,44 @@
     }
   },
 
-  "vtex.menu@2.x:menu#footer-bags": {
+  "vtex.menu@2.x:menu#ajuda": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#bags",
-      "menu-item#backpacks",
-      "menu-item#necessaire"
+      "menu-item#faq-title",
+      "menu-item#tel1",
+      "menu-item#tel2",
+      "menu-item#sac",
+      "rich-text#central"
     ]
   },
 
-  "menu-item#bags": {
+  "menu-item#faq-title": {
     "props": {
-      "id": "menu-item-bags",
+      "blockClass":[
+        "menu-highlight", "menu-items__wrapper"
+      ],
+      "id": "menu-item-faq-title",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bags/d",
+        "noFollow": true,
+        "tagTitle": "faq",
+        "text": "Fale Conosco"
+      }
+    }
+  },
+
+  "menu-item#tel1": {
+    "props": {
+      "blockClass":[
+         "menu-items__wrapper"
+      ],
+      "id": "menu-item-tel1",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -151,15 +225,18 @@
         "type": "internal",
         "href": "/bags/d",
         "noFollow": true,
-        "tagTitle": "Bags",
-        "text": "Bags"
+        "tagTitle": "telefone1",
+        "text": "(XX) X XXXX-XXXX"
       }
     }
   },
 
-  "menu-item#backpacks": {
+  "menu-item#tel2": {
     "props": {
-      "id": "menu-item-backpacks",
+      "id": "menu-item-tel2",
+      "blockClass":[
+        "menu-items__wrapper"
+      ],
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -167,15 +244,18 @@
         "type": "internal",
         "href": "/bags/backpacks",
         "noFollow": true,
-        "tagTitle": "Backpacks",
-        "text": "Backpacks"
+        "tagTitle": "tel2",
+        "text": "(XX) X XXXX-XXXX"
       }
     }
   },
 
-  "menu-item#necessaire": {
+  "menu-item#sac": {
     "props": {
-      "id": "menu-item-necessaire",
+      "id": "menu-item-sac",
+      "blockClass":[
+        "menu-items__wrapper"
+      ],
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -183,23 +263,32 @@
         "type": "internal",
         "href": "/bags/necessaire",
         "noFollow": true,
-        "tagTitle": "Necessaire",
-        "text": "Necessaire"
+        "tagTitle": "sac",
+        "text": "sac@avanti.com.br"
       }
     }
   },
+  "rich-text#central": {
+    "props": {
+      "blockClass":[
+        "menu-items__wrapper"
+      ],
+      "text": "[Central de Atendimento](/#)"
+    }
+  },
 
-  "vtex.menu@2.x:menu#footer-clothing": {
+  "vtex.menu@2.x:menu#faq": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#clothing",
-      "menu-item#shorts",
-      "menu-item#tank-tops",
-      "menu-item#shirts",
-      "menu-item#sweatshirt",
-      "menu-item#cropped"
+      "menu-item#institucional",
+      "menu-item#marca",
+      "menu-item#sobre",
+      "menu-item#seja-rep",
+      "menu-item#seja-rev",
+      "menu-item#vendas",
+      "menu-item#catalogo"
     ]
   },
 
@@ -219,7 +308,7 @@
       "id": "menu-item-category-clothing",
       "type": "custom",
       "iconId": null,
-      "highlight": false,
+      "highlight": true,
       "itemProps": {
         "type": "internal",
         "href": "/clothing/d",
@@ -239,11 +328,13 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#shorts",
-      "menu-item#tank-tops",
-      "menu-item#shirts",
-      "menu-item#sweatshirt",
-      "menu-item#cropped"
+      "menu-item#institucional",
+      "menu-item#marca",
+      "menu-item#sobre",
+      "menu-item#seja-rep",
+      "menu-item#seja-rev",
+      "menu-item#vendas",
+      "menu-item#catalogo"
     ]
   },
 
@@ -295,89 +386,121 @@
     ]
   },
 
-  "menu-item#clothing": {
+  "menu-item#institucional": {
     "props": {
-      "id": "menu-item-category-clothing",
+      "blockClass":["menu-highlight", "menu-items__wrapper"],
+      "id": "menu-item-category-institucional",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/##",
+        "noFollow": true,
+        "tagTitle": "Institucional",
+        "text": "Institucional"
+      }
+    }
+  },
+  "menu-item#marca": {
+    "props": {
+      "blockClass":["menu-items__wrapper"],
+      "id": "menu-item-category-marca",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/d",
+        "href": "/##",
         "noFollow": true,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
+        "tagTitle": "A Marca",
+        "text": "A Marca"
       }
     }
   },
 
-  "menu-item#shorts": {
+  "menu-item#sobre": {
     "props": {
-      "id": "menu-item-shorts",
+      "id": "menu-item-sobre",
       "type": "custom",
+      "blockClass":[
+        "menu-items__wrapper"
+      ],
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
         "href": "/clothing/shorts",
         "noFollow": false,
-        "tagTitle": "Shorts",
-        "text": "Shorts"
+        "tagTitle": "Sobre Nós",
+        "text": "Sobre Nós"
       }
     }
   },
 
-  "menu-item#tank-tops": {
+  "menu-item#seja-rep": {
     "props": {
-      "id": "menu-item-tank-tops",
+      "id": "menu-item-seja-rep",
       "type": "custom",
+      "blockClass":[
+        "menu-items__wrapper"
+      ],
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
         "href": "/clothing/tank-tops",
         "noFollow": false,
-        "tagTitle": "Tank tops",
-        "text": "Tank tops"
+        "tagTitle": "Seja um Representante",
+        "text": "Seja um Representante"
       }
     }
   },
 
-  "menu-item#shirts": {
+  "menu-item#seja-rev": {
     "props": {
-      "id": "menu-item-shirts",
+      "id": "menu-item-seja-rev",
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass":[
+        "menu-items__wrapper"
+      ],
       "itemProps": {
         "type": "internal",
         "href": "/clothing/shirts",
         "noFollow": false,
-        "tagTitle": "Shirts",
-        "text": "Shirts"
+        "tagTitle": "Seja um Revendedor",
+        "text": "Seja um Revendedor"
       }
     }
   },
 
-  "menu-item#sweatshirt": {
+  "menu-item#vendas": {
     "props": {
-      "id": "menu-item-sweat-shirts",
+      "id": "menu-item-vendas",
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass":[
+        "menu-items__wrapper"
+      ],
       "itemProps": {
         "type": "internal",
         "href": "/clothing/sweatshirt",
         "noFollow": false,
-        "tagTitle": "Sweatshirt",
-        "text": "Sweatshirt"
+        "tagTitle": "Vendas Corporativas",
+        "text": "Vendas Corporativas"
       }
     }
   },
-
-  "menu-item#cropped": {
+  
+  "menu-item#catalogo": {
     "props": {
       "id": "menu-item-cropped",
+      "blockClass":[
+        "menu-items__wrapper"
+      ],
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -385,8 +508,8 @@
         "type": "internal",
         "href": "/clothing/cropped",
         "noFollow": false,
-        "tagTitle": "Cropped",
-        "text": "Cropped"
+        "tagTitle": "Catálogo",
+        "text": "Catálogo"
       }
     }
   }

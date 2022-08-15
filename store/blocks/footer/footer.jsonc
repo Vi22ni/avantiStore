@@ -1,0 +1,217 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+    "props":{
+      "blockClass": ["footer__wrapper"]
+    },
+    "children": [
+      "flex-layout.row#footer-newsletter",
+      "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#footer-2-desktop",
+      "flex-layout.row#footer-3-desktop"
+    ]
+  },
+  "flex-layout.row#footer-newsletter":{
+    "props":{
+      "blockClass": "footer-newsletter__wrapper",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true
+    },
+    "children":[
+      "logo#footer-logo",
+      "flex-layout.col#footer-text",
+      "flex-layout.col#spacer-footer"
+      // "form-input.text#newsletter-name"
+    ]
+  },
+  "logo#footer-logo":{
+    "props":{
+      "title": "Logo",
+      "href": "/",
+      "url": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/4.4.2/imgs/desktop/logo-avanti___5983b91626769c86c1800507f89bd1c6.png",
+      "blockClass":"footer-logo__newsletter"
+    }
+  },
+  "flex-layout.col#footer-text":{
+    "props":{
+      "blockClass": ["footer-txt-col__wrapper"],
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true
+    },
+    "children":[
+      "rich-text#newsletter-text-title",
+      "rich-text#newsletter-text"
+    ]
+  },
+  "rich-text#newsletter-text-title":{
+    "props":{
+      "text":"Newsletter",
+      "blockClass": ["newsletter-text-title__wrapper"]
+    }
+  },
+  "rich-text#newsletter-text":{
+    "props":{
+      "text":"Receba promoções e descontos especiais em primeira mão.",
+      "blockClass": ["newsletter-text__wrapper"]
+    }
+  },
+  
+  "flex-layout.col#spacer-footer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  /*"form#newsletter":{
+     "children":[
+     "form-input.text#newsletter-name"
+     ]
+   },*/
+  // "form-input.text#newsletter-name":{
+  //   "props":{
+
+  //   }
+  // },
+  "flex-layout.row#footer-1-desktop": {
+    "children": [
+      "vtex.menu@2.x:menu#faq",
+      "vtex.menu@2.x:menu#institucional",
+      "vtex.menu@2.x:menu#ajuda",
+      "footer-spacer",
+      "flex-layout.row#footer-networks"
+    ],
+    "props": {
+      "blockClass": "menu-row",
+      "paddingTop": 6,
+      "paddingBottom": 3
+    }
+  },
+
+  "flex-layout.row#footer-networks": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "blockClass": ["footer-networks__wrapper"]
+    },
+    "children": [
+      "image#footer-facebook",
+      "image#footer-instagram"
+    ]
+  },
+  "image#footer-facebook":{
+    "props":{
+      "src": "https://vollo.vteximg.com.br/arquivos/facebook.svg?v=01",
+      "link": "/###",
+      "blockClass":"footer-facebook"
+    }
+  },
+  "image#footer-instagram":{
+    "props":{
+      "src": "https://vollo.vteximg.com.br/arquivos/instagram.svg?v=01",
+      "link": "/###",
+      "blockClass":"footer-instagram"
+    }
+  },
+
+  "flex-layout.row#footer-2-desktop": {
+    "children": [
+      "logo#footer-mastercard",
+      "logo#footer-visa",
+      "logo#footer-american",
+      "logo#footer-diners",
+      "logo#footer-elo",
+      "logo#footer-boleto"
+    ],
+    "props": {
+      "blockClass": "payment-methods",
+      "preventHorizontalStretch": true
+    }
+  },
+  
+  "logo#footer-mastercard":{
+    "props":{
+      "url":"https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/4.4.2/imgs/mobile/mastercard___d831faf42a4206970f67eaf4ed2f00aa.png"
+  }
+  },
+  "logo#footer-visa":{
+    "props":{
+      "url":"https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/4.4.2/imgs/mobile/symbols___9e75d49061aa073d54086c952d79a002.png"
+}
+},
+  "logo#footer-american":{
+    "props":{
+      "url":"https://vollo.vtexassets.com/assets/vtex/assets-builder/vollo.store-theme/4.7.2/svgs/footer/american-express___84007ad9dd06af5b59ad9922c5f820ec.svg"
+}
+},
+  "logo#footer-diners":{
+    "props":{
+      "url":"https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/4.4.2/imgs/mobile/symbol___c6e6d4fcbf63bb0195122fc9f31399fd.png"
+}
+},
+  "logo#footer-elo":{
+    "props":{
+      "url":"https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/4.4.2/imgs/mobile/elo-servicos-s-a-seeklogo___3c32f508f625e92ac23a399c19a311c3.png"
+}
+},
+  "logo#footer-boleto":{
+    "props":{
+      "url":"https://vollo.vtexassets.com/assets/vtex/assets-builder/vollo.store-theme/4.7.2/svgs/footer/boleto___6409077459bc506a335e974057bb6d84.svg"
+}
+},
+  
+  "flex-layout.row#footer-3-desktop": {
+    "children": ["rich-text#footer"],
+    "props": {
+      "blockClass": "credits",
+      "fullWidth": true
+    }
+  },
+  "rich-text#footer": {
+    "props": {
+      "text": "All stock and product photos are from photos.icons8.com",
+      "blockClass": "footer"
+    }
+  },
+
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#1-footer-mobile",
+      "flex-layout.row#2-footer-mobile"
+    ]
+  },
+  "flex-layout.row#2-footer-mobile": {
+    "children": ["flex-layout.col#footer-1-mobile"],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4
+    }
+  },
+  "flex-layout.col#footer-1-mobile": {
+    "children": [
+      "accepted-payment-methods",
+      "social-networks",
+      "rich-text#footer-mobile"
+    ],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4,
+      "rowGap": 4
+    }
+  },
+  "flex-layout.row#1-footer-mobile": {
+    "props": {
+      "paddingTop": 4,
+      "paddingBottom": 4
+    },
+    "children": ["vtex.menu@2.x:menu#footer-mobile"]
+  },
+  "rich-text#footer-mobile": {
+    "props": {
+      "text": "All stock and product photos are from photos.icons8.com",
+      "blockClass": "footer"
+    }
+  }
+}
