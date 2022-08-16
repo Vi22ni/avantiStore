@@ -1,0 +1,42 @@
+.newsletterForm--newsletter-form__wrapper{
+    width: 750px;
+    flex-direction: row;
+    display: flex;
+    justify-content: right;
+}
+.formSubmitContainer--newsletter-submit__wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.nameInputContainer--newsletter-name__wrapper,
+.emailInputContainer--newsletter-email__wrapper{
+    display: flex;
+    align-items: center;
+    width: 260px;
+}
+.formSubmitContainer--newsletter-submit__wrapper :global(.vtex-button){
+    background-color: #00000000;
+    border: 0;
+    color: #441AFA;
+}
+.nameInputContainer--newsletter-name__wrapper :global(.vtex-input-prefix__group){
+    margin-right: 5px;
+}
+.nameInputContainer--newsletter-name__wrapper :global(.vtex-input-prefix__group),
+.emailInputContainer--newsletter-email__wrapper :global(.vtex-input-prefix__group)
+{
+    display: flex;
+    align-items: center;
+    border: 1px solid #B1B3B3;
+    border-radius: 0;
+}
+.nameInputContainer--newsletter-name__wrapper :global(.vtex-styleguide-9-x-input),
+.emailInputContainer--newsletter-email__wrapper :global(.vtex-styleguide-9-x-input){
+    background-color: #EEEEEE;
+    
+}
+.nameInputContainer--newsletter-name__wrapper :global(.vtex-styleguide-9-x-input)::placeholder,
+.emailInputContainer--newsletter-email__wrapper :global(.vtex-styleguide-9-x-input)::placeholder{
+    color: #25282A;
+}

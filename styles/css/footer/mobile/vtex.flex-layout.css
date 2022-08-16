@@ -1,0 +1,13 @@
+.flexRowContent--mobile-top__wrapper{
+    height: fit-content;
+    background-color: #25282A;
+}
+.flexRowContent--mobile-middle__wrapper{
+    height:  90px;
+    background-color: #EEEEEE;
+    justify-content: space-between;
+}
+.flexRowContent--mobile-bottom__wrapper{
+    height:  65px;
+    background-color: #EEEEEE;
+}

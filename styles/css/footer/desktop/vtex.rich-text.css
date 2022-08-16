@@ -23,3 +23,8 @@
 .paragraph--menu-items__wrapper{
     margin: 0%;
 }
+
+.paragraph--footer{
+    font-size: 11px;
+    margin: 0;
+}

@@ -1,0 +1,12 @@
+.wrapper--mobile-frete__wrapper{
+    color: #B1B3B3;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    height: 100%;
+}
+.container--mobile-frete__wrapper{
+    justify-content: center;
+    display: flex;
+    height: 2rem;
+}

@@ -1,0 +1,96 @@
+.newsletter--newsletter__container{
+    border: 1px solid red ;
+}
+.logoLink--footer-logo__newsletter {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+.logoContainer--footer-logo__newsletter {
+    padding-left: 5px;
+}
+.flexCol--footer-txt-col__wrapper {
+    width: 308px;
+    height: 85px;
+    justify-content: center;
+}
+.newsletter--newsletter__container {
+    border: 1px solid red;
+    background-color: #00000000;
+    padding: 0;
+    width: 700px;
+    display: flex;
+}
+.container--newsletter__container {
+    padding: 0!important;
+    border: 2px solid green;
+    display: flex;
+    align-items: center;
+}
+.imageElement--footer-facebook{
+    width: 11px;
+    height: 21px;
+    margin-right: 1.5rem;
+    display: flex;
+    align-items: center;
+    padding-top:2px;
+}
+
+.imageElement--footer-instagram{
+    width: 25px;
+    height: 25px;
+    margin-right: 1.5rem;
+    display: flex;
+    align-items: center;
+
+}
+
+.logoContainer--footer-img-encrypt__wrapper{
+    padding-right: 0;
+    margin-right: -10px;
+}
+.logoContainer--footer-img-vtex__wrapper
+{
+    padding-left: 0;
+    padding-right: 0;
+    min-width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+.logoContainer--footer-logo-img,
+.logoContainer--footer-logo-img-master{
+    padding-right: 0;
+    min-width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    
+}
+.logoContainer--footer-logo-img-master{
+    padding-left: 0;
+}
+.logoImage--bottom-logos-vtex__wrapper{
+    width: fit-content;
+    margin-left: auto;
+}
+.logoImage--bottom-logos-avanti__wrapper{
+    width: fit-content;
+    margin-left: auto;
+    align-self: center!important;
+    border-right: 2px solid #C8D0D5;
+    box-sizing: border-box;
+    padding-right: 15px;
+}
+.logoContainer--bottom-logos-vtex__wrapper{
+    padding-right: 0;
+    min-width: fit-content;
+    padding-left: 10px;
+}
+.logoContainer--bottom-logos-avanti__wrapper{
+    padding-right: 0;
+    display: flex;
+}
+
+
