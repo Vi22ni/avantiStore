@@ -61,8 +61,10 @@
   },
   "minicart.v2":{
     "props":{
-      "blockClass":["minicart__wrapper"]
-    }
+      "blockClass":["minicart__wrapper"],
+      "customPixelEventId": "add-to-cart-button"
+    },
+    "children": ["minicart-base-content"]
   },
   "icon-cart":{
     "props":{

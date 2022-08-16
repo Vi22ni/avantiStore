@@ -1,0 +1,17 @@
+{
+    "flex-layout.row#mobile-top-bar":{
+        "props":{
+            "fullWidth": true,
+            "blockClass": [ "mobile-top__wrapper"]
+        },
+        "children":[
+            "rich-text#mobile-frete"
+        ]
+    },
+    "rich-text#mobile-frete":{
+        "props":{
+            "text": "Frete grátis a partir de R$ 299,00.",
+            "blockClass":["mobile-frete__wrapper"]
+        }
+    }
+}

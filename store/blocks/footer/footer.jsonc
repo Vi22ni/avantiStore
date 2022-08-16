@@ -22,9 +22,37 @@
     "children":[
       "logo#footer-logo",
       "flex-layout.col#footer-text",
-      "flex-layout.col#spacer-footer"
-      // "form-input.text#newsletter-name"
+      "flex-layout.col#spacer-footer",
+      "newsletter-form"
     ]
+  },
+  "newsletter-form":{
+    "props":{
+      "blockClass": ["newsletter-form__wrapper"]
+    },
+    "children":[
+      "newsletter-input-name",
+      "newsletter-input-email",
+      "newsletter-submit"
+    ]
+  },
+  "newsletter-input-email":{
+    "props":{
+      "blockClass": ["newsletter-email__wrapper"]
+    }
+    
+  },
+  "newsletter-input-name":{
+    "props":{
+      "blockClass": ["newsletter-name__wrapper"]
+    }
+    
+  },
+  "newsletter-submit":{
+    "props":{
+      "blockClass":["newsletter-submit__wrapper"],
+      "submitButtonLabel": "Cadastre-se"
+    }
   },
   "logo#footer-logo":{
     "props":{
@@ -87,7 +115,7 @@
       "paddingBottom": 3
     }
   },
-
+  
   "flex-layout.row#footer-networks": {
     "props": {
       "preventHorizontalStretch": true,
@@ -115,6 +143,16 @@
   },
 
   "flex-layout.row#footer-2-desktop": {
+    "props":{
+      "blockClass": "footer_2__wrapper",
+      "preventHorizontalStretch": true
+    },
+    "children":[
+      "flex-layout.row#footer-payment",
+      "flex-layout.row#footer-encrypt"
+    ]
+  },
+  "flex-layout.row#footer-payment": {
     "children": [
       "logo#footer-mastercard",
       "logo#footer-visa",
@@ -131,49 +169,111 @@
   
   "logo#footer-mastercard":{
     "props":{
+      "blockClass": ["footer-logo-img-master"],
       "url":"https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/4.4.2/imgs/mobile/mastercard___d831faf42a4206970f67eaf4ed2f00aa.png"
-  }
+    }
   },
   "logo#footer-visa":{
     "props":{
+      "blockClass": ["footer-logo-img"],
       "url":"https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/4.4.2/imgs/mobile/symbols___9e75d49061aa073d54086c952d79a002.png"
 }
 },
-  "logo#footer-american":{
-    "props":{
-      "url":"https://vollo.vtexassets.com/assets/vtex/assets-builder/vollo.store-theme/4.7.2/svgs/footer/american-express___84007ad9dd06af5b59ad9922c5f820ec.svg"
-}
+"logo#footer-american":{
+  "props":{
+    "blockClass": ["footer-logo-img"],
+    "url":"https://vollo.vtexassets.com/assets/vtex/assets-builder/vollo.store-theme/4.7.2/svgs/footer/american-express___84007ad9dd06af5b59ad9922c5f820ec.svg"
+  }
 },
-  "logo#footer-diners":{
-    "props":{
-      "url":"https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/4.4.2/imgs/mobile/symbol___c6e6d4fcbf63bb0195122fc9f31399fd.png"
-}
+"logo#footer-diners":{
+  "props":{
+    "blockClass": ["footer-logo-img"],
+    "url":"https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/4.4.2/imgs/mobile/symbol___c6e6d4fcbf63bb0195122fc9f31399fd.png"
+  }
 },
-  "logo#footer-elo":{
-    "props":{
-      "url":"https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/4.4.2/imgs/mobile/elo-servicos-s-a-seeklogo___3c32f508f625e92ac23a399c19a311c3.png"
-}
+"logo#footer-elo":{
+  "props":{
+    "blockClass": ["footer-logo-img"],
+    "url":"https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/4.4.2/imgs/mobile/elo-servicos-s-a-seeklogo___3c32f508f625e92ac23a399c19a311c3.png"
+  }
 },
-  "logo#footer-boleto":{
-    "props":{
-      "url":"https://vollo.vtexassets.com/assets/vtex/assets-builder/vollo.store-theme/4.7.2/svgs/footer/boleto___6409077459bc506a335e974057bb6d84.svg"
-}
+"logo#footer-boleto":{
+  "props":{
+    "blockClass": ["footer-logo-img"],
+    "url":"https://vollo.vtexassets.com/assets/vtex/assets-builder/vollo.store-theme/4.7.2/svgs/footer/boleto___6409077459bc506a335e974057bb6d84.svg"
+  }
 },
-  
-  "flex-layout.row#footer-3-desktop": {
-    "children": ["rich-text#footer"],
+"flex-layout.row#footer-encrypt":{
+  "props":{
+    "blockClass": ["footer-encrypt__wrapper"],
+    "preventHorizontalStretch": true
+  },
+  "children":[
+    "logo#footer-vtex",
+    "logo#footer-encrypt"
+  ]
+},
+"logo#footer-vtex":{
+  "props":{
+    "blockClass": ["footer-img-vtex__wrapper"],
+    "url": "https://vollo.vtexassets.com/assets/vtex/assets-builder/vollo.store-theme/4.7.2/svgs/pci-certfield___95a4196bffa7fb45910437a466ac64c0.svg"
+  }
+},
+"logo#footer-encrypt":{
+  "props":{
+    "blockClass": ["footer-img-encrypt__wrapper"],
+    "url": "https://vollo.vtexassets.com/assets/vtex/assets-builder/vollo.store-theme/4.7.2/svgs/encripted___b152461183784c8ec60ce80d94c8a824.svg"
+  }
+},
+
+"flex-layout.row#footer-3-desktop": {
+  "children": ["flex-layout.col#footer-bottom", "flex-layout.row#footer-bottom-logos"],
     "props": {
-      "blockClass": "credits",
-      "fullWidth": true
+      "blockClass": "footer-3__wrapper",
+      "fullWidth": true,
+      "preventHorizontalStretch":true
     }
   },
-  "rich-text#footer": {
+  "flex-layout.col#footer-bottom":{
+    "props":{
+      "blockClass": "footer-bottom__wrapper"
+    },
+    "children": ["rich-text#footer1", "rich-text#footer2"]
+  },
+  "rich-text#footer1": {
     "props": {
-      "text": "All stock and product photos are from photos.icons8.com",
+      "text": "© Copyright 2021 Avanti LTDA - Todos direitos reservados. ",
       "blockClass": "footer"
     }
   },
-
+  "rich-text#footer2": {
+    "props": {
+      "text": "Rodovia Jose Carlos Daux, 500 Techno Towers - Torre 2 - sala 209 - João Paulo, Florianópolis - SC, 88030-000",
+      "blockClass": "footer"
+    }
+  },
+  "flex-layout.row#footer-bottom-logos":{
+    "props":{
+      "preventHorizontalStretch":true,
+      "blockClass":"footer-bottom-logos__wrapper"
+    },
+    "children":[
+      "logo#footer-bottom-avanti",
+      "logo#footer-bottom-vtex"
+    ]
+  },
+  "logo#footer-bottom-avanti":{
+    "props":{
+      "blockClass": "bottom-logos-avanti__wrapper",
+      "url":"https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/4.4.2/imgs/mobile/avanti___14c3e77ee1523abcd0957d9f7e458f8e.png"
+    }
+  },
+  "logo#footer-bottom-vtex":{
+    "props":{
+      "blockClass": "bottom-logos-vtex__wrapper",
+      "url":"https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/4.4.2/imgs/mobile/Imagem-16___e36219d56c7c311e9b3f18e4e6caf737.png"
+    }
+  },
   "footer-layout.mobile": {
     "children": [
       "flex-layout.row#1-footer-mobile",

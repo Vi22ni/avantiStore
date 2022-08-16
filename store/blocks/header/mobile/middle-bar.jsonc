@@ -1,0 +1,19 @@
+{
+
+  "flex-layout.row#mobile-middle-bar": {
+    "children": [
+      "drawer",
+      "logo",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "mobile-middle__wrapper",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "drawer": {
+    "children": []
+  }
+}
