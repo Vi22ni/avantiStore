@@ -1,0 +1,10 @@
+
+.openIconContainer--mobile-drawer__wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 0;
+}
+.menuIcon--mobile-drawer__wrapper{
+    width: 28px;
+}

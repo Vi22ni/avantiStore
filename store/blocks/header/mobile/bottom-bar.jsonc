@@ -8,5 +8,13 @@
             "fullWidth": true
         }
     },
-    "search-bar#mobile":{}
+    "search-bar#mobile":{
+        "props":{
+            "blockClass":[
+                "mobile-searchbar__wrapper"
+            ],
+            "displayMode": "search-and-clear-buttons",
+            "placeholder": "O que você procura?"
+        }
+    }
 }

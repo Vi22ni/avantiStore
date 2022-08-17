@@ -1,0 +1,22 @@
+{
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#footer-mobile-newsletter",
+      "flex-layout.row#footer-mobile-1-desktop",
+      "flex-layout.row#footer-mobile-2-desktop",
+      "flex-layout.row#footer-mobile-3-desktop"
+    ]
+  },
+  "flex-layout.row#footer-mobile-newsletter":{
+    
+  },
+  "flex-layout.row#footer-mobile-1-desktop":{
+
+  },
+  "flex-layout.row#footer-mobile-2-desktop":{
+
+  },
+  "flex-layout.row#footer-mobile-3-desktop":{
+
+  }
+}

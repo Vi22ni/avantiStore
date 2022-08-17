@@ -1,0 +1,92 @@
+{
+
+  "menu-item#mobile-dep2":{
+    "props":{
+      "id": "menu-item-mobile-dep2",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": ["menu-item-dep1__wrapper", "mobile-item__wrapper"],
+      "itemProps": {
+        "type": "internal",
+        "href": "/#/",
+        "noFollow": false,
+        "tagTitle": "departamento 2",
+        "text": "departamento 2"
+      }
+      
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#mobile-dep2"
+    ]
+    
+    },
+    "vtex.menu@2.x:submenu.accordion#mobile-dep2": {
+    "props": {
+        "blockClass": "menu-dep-mobile__wrapper"
+    },
+    "children": [
+        "vtex.menu@2.x:menu#mobile-dep2"
+    ]
+    },
+    "vtex.menu@2.x:menu#mobile-dep2": {
+    "props": {
+        "orientation": "vertical",
+        "blockClass": ["menu-dep1__wrapper"]
+    },
+    "children": [
+        "menu-item#mobile-dep2-cat1",
+        "menu-item#mobile-dep2-cat2",
+        "menu-item#mobile-dep2-cat3",
+        "menu-item#ver-todos"
+    ]
+    },
+    "menu-item#mobile-dep2-cat1":{
+        "props":{
+            "id": "menu-item-mobile-dep2-cat1",
+            "type": "custom",
+            "iconId": null,
+            "blockClass": ["menu-item-dep1-cat1__wrapper", "mobile-item-cat__wrapper"],
+            "itemProps": {
+              "type": "internal",
+              "href": "/#/",
+              "noFollow": false,
+              "tagTitle": "categoria 2",
+              "text": "categoria 2"
+            }
+            
+          }
+    },
+    "menu-item#mobile-dep2-cat2":{
+        "props":{
+            "id": "menu-item-mobile-dep2-cat2",
+            "type": "custom",
+            "iconId": null,
+            "blockClass": ["menu-item-dep1-cat2__wrapper", "mobile-item-cat__wrapper"],
+            "itemProps": {
+              "type": "internal",
+              "href": "/#/",
+              "noFollow": false,
+              "tagTitle": "categoria 2",
+              "text": "categoria 2"
+            }
+            
+          }
+    },
+    "menu-item#mobile-dep2-cat3":{
+        "props":{
+            "id": "menu-item-mobile-dep2-cat3",
+            "type": "custom",
+            "iconId": null,
+            "blockClass": ["menu-item-dep1-cat3__wrapper", "mobile-item-cat__wrapper"],
+            "itemProps": {
+              "type": "internal",
+              "href": "/#/",
+              "noFollow": false,
+              "tagTitle": "categoria 3",
+              "text": "categoria 3"
+            }
+            
+          }
+    }
+
+}

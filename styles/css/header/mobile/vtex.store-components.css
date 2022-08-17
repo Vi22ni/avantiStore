@@ -1,0 +1,38 @@
+.logoContainer--mobile__wrapper{
+    display: flex;
+    min-height: 100%;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 0 12px;
+    max-width: 176px;
+    min-width: 120px;
+}
+.openIconContainer--mobile-drawer__wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.searchBarIcon--mobile-searchbar__wrapper--external-search{
+    background-color: #441AFA;
+}
+.searchIcon--mobile-searchbar__wrapper{
+    color: #fff;
+}
+.autoCompleteOuterContainer--mobile-searchbar__wrapper{
+    border: none;
+    /* width: 38rem; */
+}
+.externalSearchButtonWrapper{
+    border: none;
+}
+
+.searchBarContainer{
+    width: 371px;
+    padding-top: 0;
+}
+.autoCompleteOuterContainer--mobile-searchbar__wrapper :global(.vtex-input-prefix__group){
+    height: 48px;
+    border-radius: 0;
+    border: none;
+}

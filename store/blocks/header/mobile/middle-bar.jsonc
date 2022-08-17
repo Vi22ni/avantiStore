@@ -3,7 +3,7 @@
   "flex-layout.row#mobile-middle-bar": {
     "children": [
       "drawer",
-      "logo",
+      "logo#mobile-header",
       "minicart.v2"
     ],
     "props": {
@@ -14,6 +14,21 @@
     }
   },
   "drawer": {
-    "children": []
+    "props":{
+      "blockClass":["mobile-drawer__wrapper"],
+      "size": 50
+    },
+    "children": [
+      "vtex.menu@2.x:menu#mobile-header-menu"
+    ]
+  },
+  "logo#mobile-header":{
+    "props":{
+      "title": "mobile-logo",
+      "blockClass": ["mobile__wrapper"],
+      "href": "/",
+      "url": "https://blog.penseavanti.com.br/wp-content/uploads/2019/08/logo_avanti5-1024x173.png",
+      "width": "176"
+    }
   }
 }

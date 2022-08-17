@@ -10,7 +10,7 @@
     },
     "rich-text#mobile-frete":{
         "props":{
-            "text": "Frete grátis a partir de R$ 299,00.",
+            "text": "Frete grátis a partir de R$ 299,00 para a região sudeste.",
             "blockClass":["mobile-frete__wrapper"]
         }
     }

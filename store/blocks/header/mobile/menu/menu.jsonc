@@ -1,0 +1,166 @@
+{
+    "vtex.menu@2.x:menu#mobile-header-menu":{
+        "props": {
+          "experimentalOptimizeRendering": true,
+          "blockClass":["menu-mobile__wrapper"]
+        },
+        "children": [
+          "menu-item#mobile-novidades",
+          "menu-item#mobile-outlet",
+          "menu-item#mobile-dep1",
+          "menu-item#mobile-dep2",
+          "menu-item#mobile-dep3",
+          "menu-item#mobile-dep4",
+          "menu-item#mobile-dep5",
+          "menu-item#mobile-conta",
+          "menu-item#mobile-atendimento",
+          "menu-item#mobile-parceiros",
+          "menu-item#mobile-rep",
+          "menu-item#mobile-rev"
+        ]
+        
+      },
+      "menu-item#mobile-novidades":{
+        "props": {
+          "id": "menu-item-mobile-novidades",
+          "type": "custom",
+          "iconId": null,
+          "blockClass": ["menu-item-novidades__wrapper", "mobile-item__wrapper"],
+          "itemProps": {
+            "type": "internal",
+            "href": "/#/",
+            "noFollow": false,
+            "tagTitle": "Novidades",
+            "text": "Novidades"
+          }
+        }
+      },
+      "menu-item#mobile-outlet":{
+        "props":{
+          "id": "menu-item-mobile-outlet",
+          "type": "custom",
+          "iconId": null,
+          "blockClass": ["menu-item-outlet__wrapper", "mobile-item__wrapper"],
+          "itemProps": {
+            "type": "internal",
+            "href": "/#/",
+            "noFollow": false,
+            "tagTitle": "outlet",
+            "text": "outlet"
+          }
+          
+        }
+      },
+      "menu-item#mobile-dep4":{
+        "props":{
+          "id": "menu-item-mobile-dep4",
+          "type": "custom",
+          "iconId": null,
+          "blockClass": ["menu-item-dep1__wrapper", "mobile-item__wrapper"],
+          "itemProps": {
+            "type": "internal",
+            "href": "/#/",
+            "noFollow": false,
+            "tagTitle": "departamento 4",
+            "text": "departamento 4"
+          }
+          
+        }
+      },
+      "menu-item#mobile-dep5":{
+        "props":{
+          "id": "menu-item-mobile-dep5",
+          "type": "custom",
+          "iconId": null,
+          "blockClass": ["menu-item-dep1__wrapper", "mobile-item__wrapper"],
+          "itemProps": {
+            "type": "internal",
+            "href": "/#/",
+            "noFollow": false,
+            "tagTitle": "departamento 5",
+            "text": "departamento 5"
+          }
+          
+        }
+      },
+      "menu-item#mobile-conta":{
+        "props":{
+          "id": "menu-item-mobile-conta",
+          "type": "custom",
+          "iconId": null,
+          "blockClass": ["menu-item-outlet__wrapper", "mobile-item__wrapper", "menu-item-conta__wrapper"],
+          "itemProps": {
+            "type": "internal",
+            "href": "/#/",
+            "noFollow": false,
+            "tagTitle": "minha conta",
+            "text": "minha conta"
+          }
+          
+        }
+      },
+      "menu-item#mobile-atendimento":{
+        "props":{
+          "id": "menu-item-mobile-atendimento",
+          "type": "custom",
+          "iconId": null,
+          "blockClass": ["menu-item-outlet__wrapper", "mobile-item__wrapper", "menu-item-conta__wrapper"],
+          "itemProps": {
+            "type": "internal",
+            "href": "/#/",
+            "noFollow": false,
+            "tagTitle": "atendimento ao cliente",
+            "text": "atendimento ao cliente"
+          }
+          
+        }
+      },
+      "menu-item#mobile-parceiros":{
+        "props":{
+            "id": "menu-item-mobile-parceiros",
+            "type": "custom",
+            "iconId": null,
+            "blockClass": ["menu-item-outlet__wrapper", "mobile-item__wrapper", "menu-item-parceiros__wrapper"],
+            "itemProps": {
+              "type": "internal",
+              "href": "/#/",
+              "noFollow": false,
+              "tagTitle": "parceiros",
+              "text": "parceiros"
+            }
+            
+          }
+      },
+      "menu-item#mobile-rep":{
+        "props":{
+            "id": "menu-item-mobile-rep",
+            "type": "custom",
+            "iconId": null,
+            "blockClass": ["menu-item-outlet__wrapper", "mobile-item__wrapper", "menu-item-parceiros__wrapper"],
+            "itemProps": {
+              "type": "internal",
+              "href": "/#/",
+              "noFollow": false,
+              "tagTitle": "seja um representante",
+              "text": "seja um representante"
+            }
+            
+          }
+      },
+      "menu-item#mobile-rev":{
+        "props":{
+            "id": "menu-item-mobile-rev",
+            "type": "custom",
+            "iconId": null,
+            "blockClass": ["menu-item-outlet__wrapper", "mobile-item__wrapper", "menu-item-parceiros__wrapper"],
+            "itemProps": {
+              "type": "internal",
+              "href": "/#/",
+              "noFollow": false,
+              "tagTitle": "seja um revendedor",
+              "text": "seja um revendedor"
+            }
+            
+          }
+      }
+}

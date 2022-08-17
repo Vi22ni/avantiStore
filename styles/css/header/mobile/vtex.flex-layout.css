@@ -6,8 +6,10 @@
     height:  90px;
     background-color: #EEEEEE;
     justify-content: space-between;
+    padding: 0 21px;
 }
 .flexRowContent--mobile-bottom__wrapper{
     height:  65px;
+    padding: 0 21px;
     background-color: #EEEEEE;
 }
