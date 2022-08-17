@@ -38,7 +38,8 @@
   },
   "newsletter-input-email":{
     "props":{
-      "blockClass": ["newsletter-email__wrapper"]
+      "blockClass": ["newsletter-email__wrapper"],
+      "placeholderText": "E-mail"
     }
     
   },
